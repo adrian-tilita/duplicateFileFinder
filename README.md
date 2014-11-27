@@ -7,9 +7,13 @@ Usage:
 main.(py|php) [path] *[ext] *[xml_filename]
 * - optional parameters
 
+
 Example:
 1) main.py C:\\ jpg,png duplicate_files.xml
+
 2) php main.php D:\\ tpl,css duplicate_files.xml
+
+
 
 For help:
 main.py help
