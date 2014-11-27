@@ -5,10 +5,11 @@ Find and generate a xml with the list of duplicate files. Python and PHP Impleme
 
 Usage:
 main.(py|php) [path] *[ext] *[xml_filename]
-* - optional parameters
+(*) - optional parameters
 
 
 Example:
+
 1) main.py C:\\ jpg,png duplicate_files.xml
 
 2) php main.php D:\\ tpl,css duplicate_files.xml
