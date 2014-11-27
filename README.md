@@ -4,8 +4,10 @@ duplicateFileFinder
 Find and generate a xml with the list of duplicate files. Python and PHP Implementation.
 
 Usage:
-main.(py|php) [path] *[ext] *[xml_filename]
-(*) - optional parameters
+
+main.(py|php) [path] x[ext] x[xml_filename]
+
+x - optional parameters
 
 
 Example:
