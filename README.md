@@ -5,7 +5,7 @@ Find and generate a xml with the list of duplicate files. Python and PHP Impleme
 
 Usage:
 
-main.(py|php) [path] x[ext] x[xml_filename]
+main.(py|php|js) [path] x[ext] x[xml_filename]
 
 x - optional parameters
 
@@ -16,6 +16,7 @@ Example:
 
 2) php main.php D:\\ tpl,css duplicate_files.xml
 
+3) node main.js C:\\ jpg,png duplicate_files.xml
 
 
 For help:
@@ -23,4 +24,9 @@ For help:
 main.py help
 
 php main.php help
+
+node main.js help
+
+
+<strong>Note</strong> For nodeJS you need "xmlbuilder" (npm install xmlbuilder)
 
